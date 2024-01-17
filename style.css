@@ -735,6 +735,101 @@ background: #FF5400;
   justify-content: center;
   margin-left: 500px;
 }
+.card-container {
+  display: flex;
+  flex-direction: row; /* Stack cards vertically */
+  align-items: center; /* Center cards horizontally */
+}
+.product-card {
+  width: 300px;
+  background-color: #FFF;
+  border: 1px solid aqua;
+  border-radius: 8px;
+  overflow: hidden;
+  
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.card-content p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.card-content .rating {
+  display: flex;
+  align-items: center;
+}
+
+.card-content .rating img {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+
+.rating {
+  color: #f39c12;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star {
+  font-size: 18px;
+  margin-right: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews {
+  font-size: 12px;
+  color: #7f8c8d;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .simple-class{
   width: 1200px;
 height: 100%;
@@ -1393,94 +1488,16 @@ margin-left: 15px;
   margin-top: 50px;
   margin-left: 250px;
 }
+.card-container{
+  display: block;
+  flex-direction: row;
+  width: 1000px;
+height: auto;
+margin-left: 50px;
+}
+.product-card{
+  display: flex;
+  flex-direction: column;
 }
 
-
-/* @media screen and(max-width:600px) {
-  .root {
-    width: 600px;
-    padding: 10px;
-    margin: auto;
-    height: auto;
-  }
-  body {
-    margin: 0;
-    overflow-x: hidden;
-  }
-  
-  
-  .header {
-    .header {
-      padding-bottom: 10px;
-      width: 200px;
-    }
-  
-  }
-  
-  .header .logo {
-    height: 30px;
-    width: 30PX;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .header .logo .image {
-    width: 30px;
-    height: 30px;
-    flex-shrink: 0;
-  }
-  
-  .header .logo .text {
-    font-size: 36px;
-
-  }
-  
-  .header .logo .hero {
-    color: #131318;
-    font-family: Mulish;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-  
-  .header .logo .travel {
-    color: #ff5400;
-    font-family: Mulish;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-  
-  .header .nav .desktop {
-    display: flex;
-    justify-content: space-between;
-    width: 24PX;
-  }
-  
-  .header .nav .mobile {
-    display: none;
-  }
-  
-  .header .nav .mobile .icon {
-    height: 24px;
-    width: 24px;
-  }
-  
-  .header .nav .desktop .menu {
-    color: #424247;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-left: 44px;
-  }
-  
-  .header .nav .desktop .menu.selected {
-    color: #ff5400;
-  }
-} */
+}
