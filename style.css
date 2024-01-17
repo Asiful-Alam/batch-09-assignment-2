@@ -408,10 +408,11 @@ background: #FF5400;
   background: rgba(233, 68, 68, 0.05);
   margin-top: 24px;
   margin-left: 290px;
+  gap: 44px;
 }
 .card1 {
   width: 573px;
-  height: 284px;
+  height: 330px;
   flex-shrink: 0;
   border-radius: 16px;
   border: 1px solid rgba(251, 181, 99, 0.2);
@@ -419,7 +420,7 @@ background: #FF5400;
 }
 .card2 {
   width: 573px;
-  height: 284px;
+  height: 330px;
   flex-shrink: 0;
   border-radius: 16px;
   border: 1px solid rgba(41, 206, 246, 0.2);
@@ -427,7 +428,7 @@ background: #FF5400;
 }
 .card3 {
   width: 573px;
-  height: 284px;
+  height: 330px;
   flex-shrink: 0;
   border-radius: 16px;
   /* display: flex; */
